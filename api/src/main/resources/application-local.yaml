@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/sourceafis}
+    username: ${DB_USERNAME:sourceafis}
+    password: ${DB_PASSWORD:sourceafis_local_only}
+app:
+  storage:
+    path: ${IMAGE_STORAGE_PATH:./.data/images}

@@ -1,0 +1,5 @@
+# Cloud SQL JDBC URL and credentials must be injected by the deployment.
+# Mount a private Cloud Storage bucket at IMAGE_STORAGE_PATH in Cloud Run.
+app:
+  storage:
+    path: ${IMAGE_STORAGE_PATH}

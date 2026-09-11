@@ -29,3 +29,9 @@ buildNumber.properties
 
 # Log files
 *.log
+
+# Local credentials and private biometric images
+.env
+.env.*
+!.env.example
+.data/
